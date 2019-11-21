@@ -1,0 +1,91 @@
+@import "./variables.scss" ;
+
+.form-name ,.form-name input{
+    font-size: 	24px;
+    font-weight: bold;
+    color: $primarycolor !important;
+}
+.form-name .ant-input-group-addon{
+    font-size: 18px;
+    border: 0px;
+    background: transparent;
+}
+.form-name input:disabled{
+    background: transparent;
+    border: 0px;
+    cursor: default;
+}
+.form-section{
+    padding: 24px;
+}
+.form-section.form-disabled .btn-toolbar{
+    display: none;
+}
+.form-section.form-disabled .form-control {
+    background: transparent !important;
+    border: 0px !important;
+    cursor: default !important;
+    box-shadow: none !important;
+}
+.form-section.form-disabled select {
+    /* for Firefox */
+    -moz-appearance: none;
+    /* for Chrome */
+    -webkit-appearance: none;
+  }
+  
+  /* For IE10 */
+  .form-section.form-disabled select::-ms-expand {
+    display: none;
+  }
+.form-section form .form-label, .form-section form label{
+    font-weight: bold !important;
+}
+.form-section form .checkbox-label{
+    font-weight:normal !important;
+}
+.form-section form .btn{
+    color: #fff;
+    background-color: #1890ff;
+    border-color: #1890ff;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.12);
+    -webkit-box-shadow: 0 2px 0 rgba(0,0,0,0.045);
+    box-shadow: 0 2px 0 rgba(0,0,0,0.045);
+    line-height: 1.5;
+    position: relative;
+    display: inline-block;
+    font-weight: 400;
+    white-space: nowrap;
+    text-align: center;
+    background-image: none;
+    border: 1px solid transparent;
+    -webkit-box-shadow: 0 2px 0 rgba(0,0,0,0.015);
+    box-shadow: 0 2px 0 rgba(0,0,0,0.015);
+    cursor: pointer;
+    -webkit-transition: all .3s cubic-bezier(.645, .045, .355, 1);
+    transition: all .3s cubic-bezier(.645, .045, .355, 1);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    height: 32px;
+    padding: 0 15px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.form-section form label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+}
+.form-section form .radio label,
+.checkbox label {
+  min-height: 20px;
+  padding-left: 20px;
+  margin-bottom: 0;
+  font-weight: normal;
+  cursor: pointer;
+}

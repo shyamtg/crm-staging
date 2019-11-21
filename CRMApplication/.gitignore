@@ -1,0 +1,45 @@
+# IDEs
+.project
+.pydevproject
+.idea
+.vscode
+.settings
+
+# Random files
+*~
+\#*
+
+virtualenv/
+
+
+# Python compiled byte code
+*.pyc
+*.pickle
+
+# Google calendar Auth file
+credentials.json
+
+
+# SQLite3 database
+*.sqlite
+
+
+# Coverage
+coverage/
+.coverage
+.cache
+
+# static validation files
+.eslintrc
+.sass-lint.yml
+.prospector.yml
+.coveragerc
+
+# in case we run shippable tests don't include it
+shippable/
+
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml

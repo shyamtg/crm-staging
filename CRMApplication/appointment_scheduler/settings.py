@@ -28,7 +28,7 @@ SECRET_KEY = 'u439tooc7!5r)pfx=cy1an3i*vz(n=46x3&*i&g6#x52skquvx'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 #
-ALLOWED_HOSTS = ["localhost","127.0.0.1","crm-app-staging.sjf999givm.us-east-1.elasticbeanstalk.com"]
+ALLOWED_HOSTS = ["localhost","127.0.0.1","crm-staging.sjf999givm.us-east-1.elasticbeanstalk.com"]
 
 
 # Application definition

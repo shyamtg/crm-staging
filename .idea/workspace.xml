@@ -23,7 +23,7 @@
         <entry file="file://$PROJECT_DIR$/CRMApplication/appointment_scheduler/wsgi.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+              <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
               <folding>
                 <element signature="e#237#246#0" expanded="true" />
               </folding>
@@ -91,6 +91,12 @@
               <item name="crm-staging" type="462c0819:PsiDirectoryNode" />
               <item name="CRMApplication" type="462c0819:PsiDirectoryNode" />
               <item name=".ebextensions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crm-staging" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crm-staging" type="462c0819:PsiDirectoryNode" />
+              <item name="CRMApplication" type="462c0819:PsiDirectoryNode" />
+              <item name="appointment_scheduler" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -218,7 +224,7 @@
     <entry file="file://$PROJECT_DIR$/CRMApplication/appointment_scheduler/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
           <folding>
             <element signature="e#237#246#0" expanded="true" />
           </folding>
